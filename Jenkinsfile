@@ -12,20 +12,20 @@ pipeline{
         
         stage('compile the code')     {
            steps{
-            sh 'compile the code'
+            sh 'echo compile the code'
            }
         }
 
 
         stage('check the code quality')     {
            steps{
-            sh 'code quality'
+            sh 'echo code quality'
            }
         }
 
         stage('some test cases')     {
            steps{
-            sh 'some test cases'
+            sh 'echo some test cases'
            }
         }
     }
